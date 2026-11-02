@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/tvCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Count: 0"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/btnOnPlus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Plus" />
+
+    <Button
+        android:id="@+id/btnOnDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Dialog" />
+
+    <Button
+        android:id="@+id/btnOnSecond"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Second Screen" />
+
+    <Button
+        android:id="@+id/btnOnTransparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Transparent Screen" />
+
+    <Button
+        android:id="@+id/btnOnFinish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Finish" />
+
+</LinearLayout>
